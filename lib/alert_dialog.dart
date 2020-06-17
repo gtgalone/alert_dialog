@@ -7,7 +7,7 @@ void alert(BuildContext context, { Widget title, Widget content, Widget textOK }
   showDialog(
     context: context,
     child: AlertDialog(
-      title: title != null ? title : Text('Alert'),
+      title: title,
       content: content,
       actions: [
         FlatButton(

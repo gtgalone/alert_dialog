@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
           child: FlatButton(
             child: Text('Alert Dialog'),
             onPressed: () {
-              return alert(context);
+              return alert(context, title: Text('Alert'));
             },
           ),
         ),

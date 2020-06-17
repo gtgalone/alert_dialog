@@ -19,7 +19,8 @@ class MyApp extends StatelessWidget {
             onPressed: () {
               return alert(
                 context,
-                title: Text('Would you like to remove?'),
+                title: Text('Alert'),
+                content: Text('It is fun!'),
                 textOK: Text('Yes'),
               );
             },

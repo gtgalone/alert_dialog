@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
           child: FlatButton(
             child: Text('Alert Dialog'),
             onPressed: () {
-              alert(context);
+              return alert(context, title: Text('Alert'));
             },
           ),
         ),
@@ -66,17 +66,13 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: FlatButton(
             child: Text('Alert Dialog'),
-            onPressed: () async {
-              if (await alert(
+            onPressed: () {
+              return alert(
                 context,
                 title: Text('Alert'),
-                content: Text('Would you like to remove?'),
+                content: Text('It is fun!'),
                 textOK: Text('Yes'),
-                textCancel: Text('No'),
-              )) {
-                return print('pressedOK');
-              }
-              return print('pressedCancel');
+              );
             },
           ),
         ),
