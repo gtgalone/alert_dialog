@@ -9,3 +9,7 @@
 # 0.0.3
 
   * Remove default title.
+
+# 0.0.4
+
+  * Change to future.
