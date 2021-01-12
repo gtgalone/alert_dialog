@@ -10,7 +10,7 @@ https://pub.dev/packages/alert_dialog
 ### Add pubspec.yaml
 ``` yaml
 dependencies:
-  alert_dialog: lastest_version
+  alert_dialog: ^0.2.0
 ```
 ---
 ## Usage

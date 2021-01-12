@@ -17,3 +17,7 @@
 # 0.1.0
 
   * Add example main.
+
+# 0.2.0
+
+  * Change child to builder.
