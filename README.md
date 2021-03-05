@@ -10,7 +10,7 @@ https://pub.dev/packages/alert_dialog
 ### Add pubspec.yaml
 ``` yaml
 dependencies:
-  alert_dialog: ^0.2.0
+  alert_dialog: ^1.0.0
 ```
 ---
 ## Usage
@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: FlatButton(
             child: Text('Alert Dialog'),
-            onPressed: () {
+            onPressed: () async {
               return alert(context, title: Text('Alert'));
             },
           ),
@@ -66,7 +66,7 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: FlatButton(
             child: Text('Alert Dialog'),
-            onPressed: () {
+            onPressed: () async {
               return alert(
                 context,
                 title: Text('Alert'),

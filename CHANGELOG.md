@@ -21,3 +21,7 @@
 # 0.2.0
 
   * Change child to builder.
+
+# 1.0.0
+
+  * Apply null safety.
