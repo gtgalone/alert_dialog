@@ -14,10 +14,10 @@ Future<void> alert(
       builder: (_) => AlertDialog(
         title: title,
         content: content,
-        actions: [
+        actions: <Widget>[
           TextButton(
             onPressed: () => Navigator.of(context).pop(),
-            child: textOK != null ? textOK : Text('OK'),
+            child: textOK ?? const Text('OK'),
           ),
         ],
       ),

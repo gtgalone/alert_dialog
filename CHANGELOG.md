@@ -25,3 +25,7 @@
 # 1.0.0
 
   * Apply null safety.
+
+# 1.0.1
+
+  * Apply analysis options.
