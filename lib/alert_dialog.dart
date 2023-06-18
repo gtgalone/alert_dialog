@@ -13,11 +13,12 @@ Future<void> alert(
       context: context,
       builder: (_) => AlertDialog(
         title: title,
-        content: content,
+        content: SingleChildScrollView(child: content),
         actions: <Widget>[
           TextButton(
             onPressed: () => Navigator.of(context).pop(),
-            child: textOK ?? const Text('OK'),
+            child:
+                textOK ?? Text(MaterialLocalizations.of(context).okButtonLabel),
           ),
         ],
       ),
