@@ -1,10 +1,10 @@
 name: alert_dialog
 description: Alert Dialog Widget JS-LIKE for Flutter. Use alert dialog easy and simple for your flutter app.
-version: 1.0.2
+version: 1.0.3
 homepage: https://github.com/gtgalone/alert_dialog
 
 environment:
-  sdk: ">=2.12.0 <4.0.0"
+  sdk: '>=3.2.2 <4.0.0'
 
 dependencies:
   flutter:

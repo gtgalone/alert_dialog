@@ -33,3 +33,7 @@
 # 1.0.2
 
   * Make dialog to scrollable.
+
+# 1.0.3
+
+  * Add PopScope.
